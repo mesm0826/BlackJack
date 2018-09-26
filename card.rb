@@ -10,6 +10,8 @@ class Card
   def convert_string
 
     case self.no
+    when 1 then
+      no_string = "A"
     when 11 then
       no_string = "J"
     when 12 then
